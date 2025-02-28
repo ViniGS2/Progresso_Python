@@ -1,0 +1,11 @@
+not1 = float(input())
+not2 = float(input())
+not3 = float(input())
+pesA = int(2)
+pesB = int(3)
+pesC = int(5)
+notA = not1 * pesA
+notB = not2 * pesB
+notC = not3 * pesC
+media= (notA + notB + notC) / (pesA + pesB + pesC)
+print('MEDIA =',format(media,'.1f'))
